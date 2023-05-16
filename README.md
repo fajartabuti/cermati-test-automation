@@ -1,7 +1,7 @@
 ## Requirements ##
 1. Pastikan telah terinstall NodeJS dan npm
 2. jalankan perintah `npm i`
-3. buat file `.env` pada root folder project dengan isi sesuai dengan data yang dikirimkan
+3. buat file `.env` pada root folder project dan isi data dengan menyalin isi dari file '.env' yang dikirimkan
 
 ## A. Menjalankan UI automation ##
 1. Pastikan sudah ada browser chrome, jika tidak ada ubah parameter browser pada file `.testcaferc.json` sesuai dengan browser yang terinstall pada PC. c/o : firefox, chromium, dll.
