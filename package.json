@@ -1,0 +1,26 @@
+{
+  "name": "cermati-test-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test_ui": "testcafe tests/ui-test/test-case/",
+    "allure_report": "allure generate allure/allure-results --clean -o allure/allure-report && allure open allure/allure-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fajartabuti/cermati-test-automation.git"
+  },
+  "author": "Fajar Tri Saputra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fajartabuti/cermati-test-automation.git/issues"
+  },
+  "homepage": "https://github.com/fajartabuti/cermati-test-automation.git#readme",
+  "devDependencies": {
+    "allure-commandline": "^2.17.2",
+    "dotenv": "^16.0.0",
+    "testcafe": "^1.18.4",
+    "testcafe-reporter-allure-custom": "^1.1.3"
+  }
+}
